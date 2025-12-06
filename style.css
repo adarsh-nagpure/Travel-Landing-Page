@@ -1,0 +1,449 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+        width: 100%;
+     
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      
+       
+}
+.main{
+    width: 100%;
+    height:auto;
+    display:flex;
+    
+
+}
+
+.main2{
+    width:100%;
+    height:20vh;
+    background: #121212;
+    display: flex;
+    place-content: center;
+}
+
+
+.parent1{
+   background-image: url(Travel-Images/Nature1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100vh;
+
+}
+
+.parent2{
+ background:linear-gradient(90deg,#012d2d,#026666 );
+    width: 60%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+@media(max-width:768px){
+
+.main{
+    width: 100%;
+    height:auto;
+    display:flex;
+ 
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.main .parent1{
+    
+    
+     width: 100%;
+    height: 70vh;
+    display: flex;
+    position: relative;
+}
+
+.main .parent2{
+ background:linear-gradient(90deg,#012d2d,#026666 );
+    border: solid black;
+    width: 100%;
+    height: auto;
+ display: flex;
+}
+}
+
+
+    
+ .womenimg{
+    display: flex;
+    position:absolute;
+    left: 29.5%;
+    bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+.main .parent .women{
+    display: flex;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+@media(max-width:768px){
+   
+.womenimg{
+    position:;
+  display: flex;
+  left: 0;
+   align-items: center;
+   place-content: center;
+    
+}
+.parent1 img{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+    
+}
+ .parent1 .heading {
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    padding: 5rem;
+    font-size: large;
+ }
+ .parent1 .heading h1{
+    color:#C97B4A;
+ }
+
+
+ .parent1 .heading h4{
+    width: 19vw;
+    color: white;
+    margin: 0;
+    font-weight: 300;
+ }
+ @media(max-width:768px){
+    .parent1 .heading {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: flex-start;
+ }
+
+
+ .parent1 .heading h4{
+    width:auto;
+
+ }
+
+ }
+
+ .parent2 .child1{
+
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    place-content: center;
+ }
+ .parent2 .child1 .lists {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  
+
+ }
+ .parent2 .child1 .lists li{
+    display: flex;
+   list-style-type: none;
+    font-size: large;
+  cursor: pointer;
+       padding: 2.3rem;
+       color: white;
+    
+ }
+ .parent2 .child1 .lists li:hover{
+    background:#C97B4A; ;
+ }
+
+
+ .parent2 .child1 .lists li a{
+    text-decoration: none;
+     text-align: center;
+   
+ }
+ .parent2 .child1 .lists .login{
+     background: #313030c5;
+ }
+  .parent2 .child1 .lists .register{
+     background: #121212;
+ }
+ 
+@media(max-width:768px){
+     .parent2 .child1{
+        top: 0;
+        position:absolute;
+   
+    height: 8vh;
+    width: 100%;
+    justify-content: space-between;
+    place-content: center;
+ }
+ .parent2 .child1 .lists {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    align-items: center;
+  
+
+ }
+ .parent2 .child1 .lists li{
+    display: flex;
+   list-style-type: none;
+    font-size:3vw;
+  cursor: pointer;
+       padding: 0;
+       color: white;
+       padding: 0.7rem;
+       margin: 0;
+    
+ }
+
+ 
+}
+@media(max-width:820px){
+  .parent2 .child1{
+    height: 8vh;
+    width: 100%;
+    justify-content: space-between;
+    place-content: center;
+ }
+ .parent2 .child1 .lists {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    align-items: center;
+  
+
+ }
+ .parent2 .child1 .lists li{
+    display: flex;
+   list-style-type: none;
+    font-size:3vw;
+  cursor: pointer;
+       padding: 0;
+       color: white;
+       padding: 0.4rem;
+       margin: 0;
+    
+ }
+
+}
+
+
+.parent2 .content {
+    height: 50vh;
+    width: 60%;
+    display: flex;
+ 
+    flex-direction: column;
+    text-align: end;
+    justify-content: center;
+   color: white;
+
+}
+.parent2 .content h1{
+    font-size:3.5rem;
+    align-items: center;
+   color: #C97B4A;
+    
+    margin: 0;
+}
+.parent2 .content h3{
+  
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.parent2 .content h4{
+    font-size:1.1rem;
+    font-weight: 300;
+
+    
+}
+.parent2 .content h5{
+    
+    gap:2rem;
+font-size: 1rem;
+
+}
+.parent2 .content h5 .explore , .seemore{
+ 
+    width: 10em;
+    height: 4em;
+   
+}
+.parent2 .content h5  .explore{
+background-color: #C97B4A;
+}
+.parent2 .content h5 .seemore{
+   border: 1px solid #C97B4A;
+     background:linear-gradient(90deg,#012d2d00,#02666600 );
+}
+.parent2 .content h5 .seemore a{
+    text-decoration: none;
+    color: #C97B4A;
+    
+}
+
+
+.parent2 .content .listt{
+    display: flex;
+    white-space: nowrap;
+   gap: 2rem;
+   justify-content: flex-end;
+
+  font-size: xx-large;
+  
+}
+
+.parent2 .content .listt span{
+    display: flex;
+     color: white;
+   
+    
+}
+ .parent2 .content .listt a i{
+    color: white;
+    display: flex;
+
+}
+   
+
+
+@media(max-width:768px)
+{
+
+
+
+
+    .parent2 .content {
+    
+    height: 80vh;
+    width: 90%;
+    flex-direction: column;
+   text-align: center;
+ 
+  
+
+}
+.parent2 .content h1{
+    align-items: center;
+ 
+}
+
+    
+
+.parent2 .content h5{
+
+    justify-content:center;
+   
+}
+
+.parent2 .content .listt{
+
+   justify-content:center;
+}
+}
+
+
+.main2 .information{
+    
+    display: flex;
+
+width: 40%;
+height: 100%;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+color: white;
+
+}
+.main2 .information h2{
+color: aquamarine;
+margin: 0;
+font-weight: 500;
+}
+.main2 .information h4{
+    margin: 0;
+    font-weight: 400;
+
+}
+
+.main2 .information .list1{
+
+  display: flex;
+  white-space: nowrap; 
+  gap: 2rem;
+  list-style-type: none;
+  cursor: pointer;
+
+}
+.main2 .information .list2{
+
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+    font-size: x-large;
+    text-transform: none;
+
+}
+
+.main2 .information .list2 a{
+
+    color: white;
+        text-transform: none;
+
+}
+
+@media(max-width:768px)
+{
+    .main2{
+      
+    }
+    .main2 .information{
+    
+width: 80%;
+height: 100%;
+
+}
+
+.main2 .information .list1{
+  padding: 0;
+font-size: 0.8rem;
+  gap: 3vw;
+
+    
+}
+
+}
